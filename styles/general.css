@@ -1,0 +1,14 @@
+body{
+    background-color: #f5f1f1;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+.title{
+    color: black;
+    font-weight: 500;
+}
+p{
+    font-family: 'Roboto';
+}

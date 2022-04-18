@@ -1,0 +1,134 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: solid;
+    border-color: #cacaca;
+    border-width: 1px;
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    width: 150px;
+    align-items: center;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 9px;
+    flex-shrink: 0;
+}
+#search{
+    margin-right: -2px;
+    font-size: 16px;
+    background-color: white;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 1px;
+    flex: 1;
+    height: 34px;
+    border-radius: 2px;
+    padding-left: 10px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.04);
+    width: 0;
+}
+#search-button:hover,#voice-button:hover{
+    background-color: #e4e4e4;
+}
+#search-button:active,#voice-button:active{
+    background-color: #c0bebe;
+}
+#search::placeholder{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+#menu{
+    height: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+#logo{
+    height: 20px;
+    cursor: pointer;
+}
+#search-button{
+    width: 66px;
+    height: 38px;
+    background-color: #f7f7f7;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#b1b1b1;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#voice-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    border-color: #dddddd;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b1b1b1;
+    border-radius: 50%;
+}
+#search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+#voice-icon{
+    margin-top: 4px;
+    cursor: pointer;
+}
+#addvideo,#cubes,#notif{
+    height: 24px;
+    cursor: pointer;
+}
+#profilepic{
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#notifications{
+    position: relative;
+}
+#notifnumber{
+    position: absolute;
+    background-color: rgb(202, 17, 17);
+    width: 15px;
+    height: 15px;
+    top: -1px;
+    right: -6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 10px;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 2px;
+}
